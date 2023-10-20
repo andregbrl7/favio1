@@ -1,18 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-import Rodape from './componentes/componentes/Rodape';
-import Cabecalho from './componentes/componentes/Cabecalho';
-import Conteudo, { Olamundo } from './componentes/Conteudo';
-
+import "./App.css";
+import Cabecalho from "./componentes/Cabecalho/Cabecalho";
+import CadastroUsuario from "./componentes/CadastroUsuario";
+import Conteudo from "./componentes/Conteudo";
+import Rodape from "./componentes/Rodape";
+import TelaLogin from "./componentes/TelaLogin";
 
 function App() {
-
   return (
     <div className="App">
+      <Cabecalho title="Favio" />
+      <main>
+        <h2>O melhor gerenciador de favoritos do Brasil.</h2>
+      </main>
+      {/* <Conteudo /> */}
+      <TelaLogin />
+      <CadastroUsuario />
 
-   <Cabecalho logo="logo192.png" titulo="Favio.io" subtitulo="O melhor gerenciador de favoritos do Brasil" menu="inicio"/>
-   <Conteudo/> 
-   <Rodape/>
+      <Rodape />
     </div>
   );
 }
