@@ -1,5 +1,5 @@
 import "./App.css";
-import Cabecalho from "./componentes/Cabecalho/Cabecalho";
+import Cabecalho from "./componentes/Cabecalho";
 import CadastroUsuario from "./componentes/CadastroUsuario";
 import Conteudo from "./componentes/Conteudo";
 import Rodape from "./componentes/Rodape";

@@ -1,9 +1,8 @@
 import React from 'react';
-import Style from './rodape.module.css';
+import Style from './Rodape.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
-// export default function Rodape() {
   const Rodape = () => {
 
   const getCurrentDate = () => {
@@ -23,7 +22,7 @@ import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg
       </div>
     </footer>
   );
-// };
+
 };
 
 export default Rodape;
